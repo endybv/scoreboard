@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    color: hsl(80, 11%, 95%);
+}
+
+p {
+    font-family: digital-7;
+    color: hsl(0, 83%, 45%);
+}
+
+.score {
+    width: 6rem;
+    aspect-ratio: 1/1;
+    background-color: hsl(353, 100%, 2%);
+    font-size: 5rem;
+    text-align: center;
+}
+
+.container {
+    padding: 3em;
+    background-color: hsl(229, 47%, 20%);
+    width: 32rem;
+    margin: 5rem auto;
+    border-radius: .8em;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.btn {
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    font-size: 1.6rem;
+    font-family: digital-7;
+    background-color: hsl(229, 47%, 20%);
+    opacity: .5;
+    padding: .2rem .6rem;
+}
